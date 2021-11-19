@@ -9,10 +9,10 @@ defmodule ElixirHW1 do
   ## Examples
 
       iex> ElixirHW1.hello()
-      :world
-
+      :ok
   """
+
   def hello do
-    :world
+    IO.puts "Hello World!"
   end
 end
